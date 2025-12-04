@@ -1,0 +1,221 @@
+
+
+body {
+    background-color: #FFEEF8;
+    font-family: 'arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.iphone-15-pro-max {
+    position: relative;
+    background: radial-gradient(circle at 30% 25%, #befe9c 0%, #8be04a 40%, #36a32a 100%);
+    width: 360px;
+    height: 360px;
+    border-radius: 50% 50% 44% 44% / 60% 60% 40% 40%; 
+    border: 8px solid #1f6f18; 
+    box-shadow: inset 0 -30px 60px rgba(0,0,0,0.15), 0 12px 30px rgba(0,0,0,0.18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+header {
+    background: transparent;
+    color: rgba(0,0,0,0.8);
+    padding: 4px 0 10px 0;
+    text-align: center;
+    font-weight:bold;
+    width: 100%;
+}
+
+
+.iphone-15-pro-max::before,
+.iphone-15-pro-max::after {
+    content: "";
+    position: absolute;
+    top: -38px;
+    width: 12px;
+    height: 70px;
+    background: linear-gradient(#2e8b2e, #1b5e15);
+    border-radius: 8px;
+    transform-origin: bottom center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+.iphone-15-pro-max::before { left: 90px; transform: rotate(-18deg); }
+.iphone-15-pro-max::after { right: 90px; transform: rotate(18deg); }
+
+.iphone-15-pro-max .antenna-tip-left { left: 70px; }
+.iphone-15-pro-max .antenna-tip-right { right: 70px; }
+
+.tela-jogo {
+    position: relative;
+    flex: 1;
+    width: 88%;
+    margin: 6px auto;
+    border-radius: 14px;
+    padding: 12px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-1 {
+    font-size:2.5rem;
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    width:60px;
+    height:60px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.item-2 {
+    font-size:2.5rem;
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    width:60px;
+    height:60px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.item-3 {
+    font-size:2.5rem;
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    width:60px;
+    height:60px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.1);
+    order:-3;
+}
+
+.item-4 {
+    font-size:2.5rem;
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    width:60px;
+    height:60px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.item-5 {
+    font-size:2.5rem;
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    width:60px;
+    height:60px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.item-6 {
+    font-size:2.5rem;
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    width:60px;
+    height:60px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.item-7 {
+    font-size:2.5rem;
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    width:60px;
+    height:60px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.1);
+    order:-3;
+}
+
+.item-8 {
+    font-size:2.5rem;
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    width:60px;
+    height:60px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.item-9 {
+    font-size:2.5rem;
+    background-color: rgba(255,255,255,0.1);
+    margin: 10px;
+    width:60px;
+    height:60px;
+    margin:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+
+.controles {
+    padding: 15px;
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+
+.botao {
+    padding: 15px;
+    border:none;
+    border-radius: 10px;
+    font-weight:bold;
+    cursor:pointer;
+    flex-grow: 10000;
+    align-items: center;
+}
+
+
+.deposito {
+    background-color:#ddd;
+    color:#333;
+}
+
+.apostar {
+    background-color:#00ff7f;
+    color:#004422;
+    flex-grow: 500000000000;
+}
+
+.footer {
+    text-align: center;
+    color: #aaa;
+}
