@@ -14,7 +14,7 @@
     <div class="tela-de-inicio" id="telaInicio">
         <h1> ALIENZINHA </h1>
         <h2>⋆✴︎˚｡⋆Venha testar a sua sorte em um game vindo do <mark>espaço</mark>⋆✴︎˚｡⋆</h2>
-        <button class="start-button" onclick="iniciarJogo()">VAMOS JOGAR!!</button>
+        <button id="play" class="start-button" onclick="iniciarJogo()">VAMOS JOGAR!!</button>
         <p>ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧</p>
     </div>
 
@@ -48,6 +48,7 @@
         <div class="botao">
             <button class="botao deposito">Depósito</button>
             <button class="botao apostar">GIRAR!</button>
+            <img id="tamagoshi" src="imgs/tama-sem-fundo.png" alt="tamagoshi">
         </div>
          <footer> Saldo: <R1>0,00</R1>
     </footer>
@@ -59,7 +60,11 @@
             document.getElementById('telaInicio').style.display = 'none';
             
             document.getElementById('telaJogo').style.display = 'block';
+            
+            document.getElementById("tamagoshi").style.display = "block";
         }
+
+    
 
     </script>
 
