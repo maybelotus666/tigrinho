@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBGAME</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="alienzinha.js"></script>
+    
+</head>
+<body>
+ 
+    </div>
+    <div class="tela-de-inicio" id="telaInicio">
+        <h1> ALIENZINHA </h1>
+        <h2>⋆✴︎˚｡⋆Venha testar a sua sorte em um game vindo do <mark>espaço</mark>⋆✴︎˚｡⋆</h2>
+        <button class="start-button" onclick="iniciarJogo()">VAMOS JOGAR!!</button>
+        <p>ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧</p>
+    </div>
+
+    <div class="tela-de-jogo" id="telaJogo" style="display: none;">
+
+        <header>
+            <p>ִׄ˚ • 𖥔 ࣪˖ ⭑ ₊ ⭒ *ೃ༄</p>
+
+        </header>
+
+         <div class="slot-machine">
+            
+            <div class="slot-column">
+                <div class="item item-1">☠️</div>
+                <div class="item item-2">👽</div>
+                <div class="item item-3">☠️</div>
+            </div>
+        
+            <div class="slot-column">
+                <div class="item item-4">👽</div>
+                <div class="item item-5">👽</div>
+                <div class="item item-6">🪐</div>
+            </div>
+            
+            <div class="slot-column">
+                <div class="item item-7">☠️</div>
+                <div class="item item-8">🪐</div>
+                <div class="item item-9">🪐</div>
+            </div>
+        </div>
+        <div class="botao">
+            <button class="botao deposito">Depósito</button>
+            <button class="botao apostar">GIRAR!</button>
+        </div>
+         <footer> Saldo: <R1>0,00</R1>
+    </footer>
+    </div>
+   <div class="tama"></div>
+
+    <script>
+        function iniciarJogo() {
+            document.getElementById('telaInicio').style.display = 'none';
+            
+            document.getElementById('telaJogo').style.display = 'block';
+        }
+
+    </script>
+
+   
+    
+</body>
+</html>
